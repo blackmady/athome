@@ -1,0 +1,603 @@
+*{
+	font-family: Microsoft YaHei UI;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+	border:none;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*导航栏和banner大图开始*/
+
+.banner{
+	background:url(img/banner2.jpg);
+	height: 970px;/*950效果较好*/
+	background-size:cover;/*让背景图片铺满整个空间，比cover方式好，cover在不同电脑上显示效果不一样*/
+	overflow: hidden;
+	background-position: center center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+.menubar{
+	display: flex;
+	justify-content: center;
+}
+
+.guide{
+	width:1350px;
+	height: 80px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	position:absolute;
+	top:0;
+	opacity: 1;
+}
+
+
+.img{
+	/*margin-left: 190px;*/
+
+}
+.nav{
+	/*width: 500px;加了这个值之后就不能两端对齐了*/
+	/*margin-right:190px;*/
+	
+	
+}
+
+.home{
+	font-family: 'Roboto', sans-serif;
+	color:#090909;
+	margin-left:30px;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+
+.store-badge{
+	max-width: 225px;
+    margin: 5px 0px;
+}
+
+.download{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.download .apple{
+	margin-right: 45px;
+}
+
+
+.brand-heading{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 200px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+}
+
+.intro-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7em;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px 0 12px 0;
+}
+
+
+/*导航栏和banner大图结束*/
+
+
+
+/*app使用场景开始*/
+
+.scenes{
+	padding: 80px 0;
+
+
+
+}
+
+
+.scenes h1{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 50px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+
+.scenes h6 {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+}
+
+
+
+.why-item{
+	width:220px;
+	border:2px solid #D5D5D5;
+}
+
+.why-item:hover{
+	width:220px;
+	border:4px solid red;
+}
+
+
+.why-item p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 14px;
+	color: #848484;
+	margin-bottom: 10px;
+}
+
+.why-item h6{
+	font-family: 'Barlow', sans-serif;
+	font-weight: 550;
+	font-size: 20px;
+	color: #191919;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	text-align: center;
+	
+}
+
+
+.itemimage{
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+.all-box{
+	display: flex;
+	justify-content: center;
+
+}
+
+.why-box{
+	width:1150px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 65px;
+	padding-bottom: 95px;
+
+}
+
+
+
+
+/*app使用场景结束*/
+
+
+
+
+/*app特性部分开始*/
+
+.amazing{
+	background-image:url(img/background-2.png);
+	background-size:cover;
+	background-position: center center;
+	padding: 80px 0;
+	overflow: hidden;
+
+}
+
+
+
+.amazing h1 {
+	margin-top: 50px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+
+hr{
+	width: 9%;
+	border-top: 1px solid #f30c0c;
+	margin: 0 auto;
+}
+
+  
+
+.amazing h6 {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+	
+ 
+}
+
+
+.text h4{
+	font-family: 'Barlow', sans-serif;
+	margin-bottom: 7px;
+	font-size: 16px;
+}
+
+.text p{
+	font-family: 'Barlow', sans-serif;
+	font-size: 17px;
+}
+.left .text{
+	text-align: right;
+}
+
+
+
+.featurecontainer{
+	display: flex;
+	justify-content: center;
+}
+
+
+.features{
+	display: flex;
+	justify-content:space-between;
+	margin-top: 80px;
+	width:1150px;
+}
+
+
+.task{
+	width: 400px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+.task:hover{
+	cursor: pointer;
+}
+
+.picture img{
+	margin-top: 3px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+
+
+
+.pictures img{
+	margin-top: 3px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+
+.left{
+	margin-top: 80px;
+}
+.right{
+	margin-top: 80px;
+}
+
+
+/*app特性部分结束*/
+
+
+
+/*介绍视频部分开始*/
+
+.video-container{
+	background:url(img/getStartedBackground.jpg) no-repeat center center;
+ 	background-size: cover;
+ 	background-color: #D5D5D5;
+ 	overflow: hidden;
+	background-size:cover;/*让背景图片铺满整个空间，比cover方式好，cover在不同电脑上显示效果不一样*/
+	background-position: center center;
+    padding: 120px 0;
+
+}
+
+.video-container h1{
+    margin-bottom: 45px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+
+
+}
+
+.video-container h6 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 12px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+	
+ 
+}
+
+
+.videocontent{
+      width:1150px;
+      margin-top: 60px;
+
+
+}
+
+.introvideo{
+	display:flex;
+	justify-content: center;
+}
+
+
+
+/*介绍视频部分结束*/
+
+
+
+
+/*联系方式开始*/
+
+.contact {
+    text-align: center;
+}
+
+.bg-primary {
+    background: -webkit-linear-gradient(#68A9FF,#68A9CC);
+    background: linear-gradient(#f3f3f3,#f3f3f3);
+}
+
+.container {
+    width: 1150px;
+    height:350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container p{
+	margin-top: 18px;
+	color: #a8a8a8;
+	font-size: 14px;
+
+
+}
+
+section.contact h2{
+    
+    margin-bottom: 25px;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.contact h2 i {
+    color: #ff3525;
+}
+
+.fa-heart::before {
+    content: "\f004";
+    font-family: FontAwesome;
+    box-sizing: border-box;
+}
+
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+
+
+}
+section.contact ul.list-social {
+    margin-bottom: 0;
+}
+
+.list-inline{
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+section.contact ul.list-social li.social-twitter a {
+    background-color: #1da1f2;
+}
+
+section.contact ul.list-social li a {
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    border-radius: 100%;
+    color: #fff;
+}
+
+section.contact ul.list-social li.social-facebook a {
+    background-color: #1da1f2;
+}
+
+section.contact ul.list-social li.social-google-plus a {
+    background-color: #1da1f2;
+}
+/*联系方式结束*/
+
+
+
+/*软件下载开始*/
+
+
+
+
+.all-content1{
+display: flex;
+justify-content: center;
+}
+
+.platform-content{
+	width: 1150px;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+.download-button{
+	width: 350px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.download-button p{
+	margin-top: 10px;
+}
+
+
+.redbutton button{
+  color: #FFFFFF;
+  background-color: #EE1111;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+
+.bluebutton button{
+  color: #FFFFFF;
+  background-color: #5995DA;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.content-left{
+	margin-top: 25px;
+
+}
+
+.downloadallall{
+	
+}
+
+.downloadallall h1{
+	padding-top: 130px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.downloadallall h6 {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+ 
+}
+
+/*软件下载结束*/
+
+
+
+
+
+/*新软件下载开始*/
+
+.notice{
+	width: 1150px;
+	height: 700px;
+	border:2px solid #ddd;
+	overflow: hidden;
+	margin:50px auto;
+}
+
+.notice-tit{
+	display: flex;
+	justify-content: space-between;
+	height: 150px;
+	position:relative;
+}
+
+
+
+.notcie-tab{
+ width:287px;
+ border-right: 1px solid #ddd;
+ border-bottom:1px solid #ddd;
+}
+
+.notcie-tab img{
+	display: block;
+	width:108px;
+	height: 108px;
+	margin:26px auto;
+
+}
+
+.cur{
+    border-bottom: 0;
+}
+
+
+.last-tab{
+  border-right: 0;
+}
+/*新软件下载结束*/
